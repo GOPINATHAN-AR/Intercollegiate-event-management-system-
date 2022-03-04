@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vkice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.WithActionBar" >
+        <activity
+            android:name="com.example.vkice.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.vkice.CustomPref" android:label="Settings"></activity>
+        <activity android:name="com.example.vkice.Regn" android:label="Register"></activity>
+        <activity android:name="com.example.vkice.UserHome0" android:label="Home"></activity>
+        <activity android:name="com.example.vkice.AddParticipant1" android:label="Apply"></activity>
+        <activity android:name="com.example.vkice.AddParticipant2" android:label="Apply"></activity>
+        <activity android:name="com.example.vkice.ViewParticipant1" android:label="View"></activity>
+        <activity android:name="com.example.vkice.ViewParticipant2" android:label="View"></activity>
+        <activity android:name="com.example.vkice.ViewPrelims" android:label="Prelims"></activity>
+        <activity android:name="com.example.vkice.ViewMains" android:label="Mains"></activity>
+        <activity android:name="com.example.vkice.Feedback" android:label="Feedback"></activity>
+        <activity android:name="com.example.vkice.Rules" android:label="Rules"></activity>
+        <activity android:name="com.example.vkice.AboutCollege" android:label="College"></activity>
+        <activity android:name="com.example.vkice.AboutDept" android:label="Dept"></activity>
+    </application>
+
+</manifest>

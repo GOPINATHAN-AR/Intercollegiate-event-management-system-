@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:positiveButtonText="OK" android:dialogTitle="Server IP" android:dialogMessage="Enter Server IP Address" android:key="ip" android:title="Server IP" android:summary="Enter IP Address of Server"/>
+    
+
+</PreferenceScreen>
